@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #dff4ff,
+            #ffffff
+        );
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.container {
+
+    background: white;
+
+    width: 85%;
+    max-width: 500px;
+
+    padding: 40px 25px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0,0,0,0.15);
+}
+
+.book-icon {
+
+    font-size: 70px;
+
+    margin-bottom: 10px;
+}
+
+h1 {
+
+    color: #7a2236;
+
+    font-size: 38px;
+
+    margin-bottom: 5px;
+}
+
+h2 {
+
+    color: #8b1e3f;
+
+    margin-top: 5px;
+}
+
+p {
+
+    line-height: 1.6;
+}
+
+button {
+
+    background: #7a2236;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    border-radius: 15px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+
+    background: #8b1e3f;
+}
+
+.info {
+
+    font-size: 13px;
+
+    color: #777;
+
+    margin-top: 20px;
+}
